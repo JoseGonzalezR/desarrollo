@@ -1,0 +1,138 @@
+<!-- LuidyPaz -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luidyhaini Paz</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/estilo.css" />
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #00b4db, #0083b0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .fade-in {
+            animation: fadeIn 1.2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer a {
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #0d6efd !important;
+        }
+
+        ul.skills-list {
+            text-align: left;
+            padding-left: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-white shadow-sm py-4 mb-5 border-bottom text-center">
+        <div class="container">
+            <h1 class="gradient-text mb-2">Desarrollador de Apps Móviles</h1>
+            <p class="fade-in fs-5 text-muted">Página creada para Desarrollo Web Front-End 2025 - UniGuajira</p>
+        </div>
+    </header>
+
+    <main class="container d-flex flex-column align-items-center text-center">
+        <div class="col-sm-10 col-md-6 mb-4">
+            <div class="card shadow-sm h-100">
+                <img src="LuidyPaz.jpg" class="card-img-top" alt="LuidyPaz" />
+                <div class="card-body">
+                    <h5 class="card-title">Luidyhaini Paz García</h5>
+                    <p class="card-text fw-bold text-primary">Desarrollador de Apps Móviles</p>
+                    <p>
+                        Estudiante de Ingeniería de Sistemas en la Universidad de La Guajira, sede Maicao. 
+                        Participo activamente en el desarrollo de aplicaciones móviles que buscan mejorar la vida de las personas.
+                    </p>
+                    <p>
+                        Desarrollador con conocimientos sólidos en diseño, desarrollo, implementación y mantenimiento de apps nativas e híbridas para Android y iOS. 
+                        Enfocado en crear experiencias de usuario fluidas y eficientes, trabajando con equipos multidisciplinarios bajo metodologías ágiles como Scrum y Kanban.
+                    </p>
+
+                    <h6 class="text-start mt-3 text-decoration-underline">Habilidades Técnicas:</h6>
+                    <ul class="skills-list">
+                        <li><strong>Lenguajes:</strong> Kotlin, Java, Swift, Objective-C, Dart, JavaScript, TypeScript</li>
+                        <li><strong>Frameworks:</strong> Flutter, React Native, Xamarin, Ionic</li>
+                        <li><strong>Herramientas:</strong> Android Studio, Xcode, VS Code</li>
+                        <li><strong>Bases de datos:</strong> Firebase, Realm, SQLite, Core Data</li>
+                    </ul>
+
+                    <p class="text-muted mt-3">Lenguajes principales: Flutter, Dart, React Native</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <a href="index.html" class="btn btn-outline-primary">Volver al inicio</a>
+        </div>
+    </main>
+
+    <footer class="text-center text-muted py-4 bg-white mt-5 border-top">
+        <div class="container">
+            <div class="mb-2">
+                <a href="https://wa.me/57XXXXXXXXXX" target="_blank" class="text-success me-3 fs-4">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tuusuario" target="_blank" class="text-primary me-3 fs-4">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/tuusuario" target="_blank" class="text-dark fs-4">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+            <p class="mb-0">&copy; 2025 lNykal Web. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
